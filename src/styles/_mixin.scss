@@ -1,0 +1,19 @@
+
+
+
+/*
+*   For Main Elements Like:
+*   - Nav, Main, etc
+*/
+@mixin contain {
+  margin: 0 5%;
+
+  @media (min-width: 1024px) {
+    margin: 0 10%;
+  }
+
+  @media (min-width: 1280px) {
+    width: 1180px;
+    margin: 0 auto;
+  }
+}

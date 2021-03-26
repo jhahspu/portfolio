@@ -1,0 +1,44 @@
+nav {
+  @include contain();
+  display: flex;
+  justify-content: space-between;
+
+  .logo,
+  .links {
+    a {
+      position: relative;
+      padding: .5rem .7rem;
+      color: currentColor;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.1ch;
+    }
+  }
+
+  .logo a {
+    color: cornflowerblue;
+  }
+
+  .links a {
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -2%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      height: 10px;
+      background: cornflowerblue;
+      pointer-events: none;
+      opacity: 0;
+      transition: all .2s ease-in-out;
+    }
+
+    &:hover::after,
+    &.active::after {
+      width: 10px;
+      border-radius: 50%;
+      opacity: 1;
+    }
+  }
+}
