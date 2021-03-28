@@ -11,16 +11,12 @@
       animation-delay: calc(var(--order) * 200ms);
     }
 
+    
     #ss1 { --order: 1 }
-    #ss2 { --order: 2 }
-    #ss3 { --order: 3 }
-    #ss4 { --order: 4 }
 
-    #ss1,
-    #ss2,
-    #ss3,
-    #ss4 {
-      animation: blink 7s 2s alternate-reverse infinite;
+    
+    #ss1 {
+      animation: blink 5s alternate-reverse infinite;
       animation-delay: calc(var(--order) * 200ms);
     }
     
@@ -37,9 +33,9 @@
     
     @keyframes blink {
       0% { fill: #6495ed; }
-      5%, 47% { fill: #e6e7e9; }
-      50% { fill: #6495ed; }
-      53%, 100% { fill: #e6e7e9; }
+      3% { fill: #e6e7e9; }
+      7% { fill: #6495ed; }
+      12%, 100% { fill: #e6e7e9; }
     }
   </style>
   
@@ -47,9 +43,9 @@
     <path d="M232 10H18C13.5817 10 10 13.5817 10 18V352C10 356.418 13.5817 360 18 360H109.483C112.245 360 114.5 362.239 114.5 365V375C114.5 377.761 112.261 380 109.5 380H49C46.7909 380 45 381.791 45 384V386C45 388.209 46.7909 390 49 390H201C203.209 390 205 388.209 205 386V384C205 381.791 203.209 380 201 380H139.5C136.739 380 134.5 377.761 134.5 375V365C134.5 362.239 136.739 360 139.5 360H232C236.418 360 240 356.418 240 352V18C240 13.5817 236.418 10 232 10Z" fill="#E6E7E9" stroke="#343434" stroke-width="2"/>
     <g class="ser-el">
       <rect x="25" y="28" width="200" height="60" rx="8" fill="#FFFEFE"/>
-      <rect x="43" y="47" width="40" height="8" rx="4" fill="#E6E7E9"/>
+      <rect id="ss1" x="43" y="47" width="40" height="8" rx="4" fill="#E6E7E9"/>
       <rect x="43" y="61" width="40" height="8" rx="4" fill="#E6E7E9"/>
-      <circle id="ss1" cx="193.5" cy="58.5" r="12.5" fill="#E6E7E9"/>
+      <circle cx="193.5" cy="58.5" r="12.5" fill="#E6E7E9"/>
     </g>
     <g class="ser-el">
       <rect x="25" y="113" width="200" height="60" rx="8" fill="#FFFEFE"/>
