@@ -1,0 +1,87 @@
+<svg width="170" height="295" viewBox="0 0 170 295" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .ph-is rect,
+    .ph-ts rect {
+      fill: #fffefe;
+    }
+
+    rect.acc {
+      fill: #6495ed;
+    }
+
+    .ph-ts rect:nth-of-type(1), .ph-is rect:nth-of-type(1) { --order: 1 }
+    .ph-ts rect:nth-of-type(2), .ph-is rect:nth-of-type(2) { --order: 2 }
+    .ph-ts rect:nth-of-type(3), .ph-is rect:nth-of-type(3) { --order: 3 }
+    .ph-ts rect:nth-of-type(4), .ph-is rect:nth-of-type(4) { --order: 4 }
+    .ph-ts rect:nth-of-type(5), .ph-is rect:nth-of-type(5) { --order: 5 }
+    .ph-ts rect:nth-of-type(6), .ph-is rect:nth-of-type(6) { --order: 6 }
+
+    .ph-ts rect {
+      opacity: 0;
+      animation: dropIn 2s ease-in-out forwards;
+      animation-delay: calc(var(--order) * 200ms);
+    }
+
+    .ph-is rect {
+      opacity: 0;
+      animation: dropInOut 10s ease-in-out infinite;
+      animation-delay: calc(var(--order) * 200ms);
+    }
+
+    @keyframes dropIn {
+      20% {
+        opacity: 0;
+        transform: translateY(-20%);
+      }
+      30%, 100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes dropInOut {
+      0% {
+        opacity: 0;
+        transform: translateY(-15%);
+      }
+      5% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+      6%, 80% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+      86% {
+        opacity: 0;
+        transform: translateY(8%);
+      }
+      87%, 100% {
+        opacity: 0;
+        transform: translateY(10%);
+      }
+    }
+  </style>
+  <g>
+    <g>
+      <rect x="11" y="11" width="148" height="273" rx="7" fill="#E6E7E9" stroke="#343434" stroke-width="2"/>
+      <circle cx="25" cy="25" r="5" fill="#343434"/>
+    </g>
+    <g class="ph-ts">
+      <rect x="114" y="76" width="36" height="12" />
+      <rect x="67" y="76" width="36" height="12" />
+      <rect class="acc" x="20" y="76" width="36" height="12" />
+      <rect x="86" y="58" width="64" height="12" />
+      <rect x="20" y="58" width="55" height="12" />
+      <rect x="50" y="25" width="87" height="17" />
+    </g>
+    <g class="ph-is">
+      <rect x="91" y="221" width="60" height="50" rx="8" />
+      <rect x="21" y="221" width="60" height="50" rx="8" />
+      <rect x="91" y="162" width="60" height="50" rx="8" />
+      <rect class="acc" x="21" y="162" width="60" height="50" rx="8" />
+      <rect x="91" y="103" width="60" height="50" rx="8" />
+      <rect x="21" y="103" width="60" height="50" rx="8" />
+    </g>
+  </g>
+</svg>

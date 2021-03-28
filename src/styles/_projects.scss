@@ -31,17 +31,17 @@
       margin-bottom: .5rem;
 
       h3 {
-        color: rgba(0,0,0,0.5);
+        color: $faded;
       }
 
       .links a {
         padding: .5rem 1rem;
-        color: cornflowerblue;
+        color: $acc;
         font-weight: bold;
         transition: color .2s ease-in-out;
 
         &:hover {
-          color: currentColor;
+          color: $acc-h;
         }
       }
 

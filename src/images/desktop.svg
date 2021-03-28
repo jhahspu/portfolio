@@ -1,0 +1,84 @@
+<svg width="560" height="400" viewBox="0 0 560 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .desk-is rect,
+    .desk-ts rect {
+      fill: #fffefe;
+    }
+
+    rect.acc {
+      fill: #6495ed;
+    }
+
+    .desk-ts rect:nth-of-type(1), .desk-is rect:nth-of-type(1) { --order: 1 }
+    .desk-ts rect:nth-of-type(2), .desk-is rect:nth-of-type(2) { --order: 2 }
+    .desk-ts rect:nth-of-type(3), .desk-is rect:nth-of-type(3) { --order: 3 }
+    .desk-ts rect:nth-of-type(4), .desk-is rect:nth-of-type(4) { --order: 4 }
+    .desk-ts rect:nth-of-type(5), .desk-is rect:nth-of-type(5) { --order: 5 }
+    .desk-ts rect:nth-of-type(6), .desk-is rect:nth-of-type(6) { --order: 6 }
+
+    .desk-ts rect {
+      opacity: 0;
+      animation: slideIn 4s ease-in-out forwards;
+      animation-delay: calc(var(--order) * 200ms);
+    }
+
+    .desk-is rect {
+      opacity: 0;
+      animation: dropInOut 8s ease-in-out infinite;
+      animation-delay: calc(var(--order) * 200ms);
+    }
+
+    @keyframes slideIn {
+      20% {
+        opacity: 0;
+        transform: translateX(-20%);
+      }
+      30%, 100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes dropInOut {
+      0% {
+        opacity: 0;
+        transform: translateY(-20%);
+      }
+      5% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+      6%, 74% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+      84% {
+        opacity: 0;
+        transform: translateY(10%);
+      }
+      85%, 100% {
+        opacity: 0;
+        transform: translateY(10%);
+      }
+    }
+  </style>
+  <g class="els">
+    <rect x="11" y="11" width="538" height="378" rx="7" fill="#E6E7E9" stroke="#343434" stroke-width="2"/>
+    <g class="desk-ts">
+      <rect x="28" y="36" width="200" height="30" />
+      <rect x="29" y="97" width="231" height="18" />
+      <rect x="270" y="97" width="261" height="18" />
+      <rect class="acc" x="119" y="133" width="100" height="18" />
+      <rect x="229" y="133" width="100" height="18" />
+      <rect x="339" y="133" width="100" height="18" />
+    </g>
+    <g class="desk-is">
+      <rect x="372" y="283" width="161" height="79" rx="8" />
+      <rect x="201" y="283" width="161" height="79" rx="8" />
+      <rect x="31" y="283" width="161" height="79" rx="8" />
+      <rect x="372" y="186" width="161" height="79" rx="8" />
+      <rect class="acc" x="201" y="186" width="161" height="79" rx="8" />
+      <rect x="30" y="186" width="161" height="79" rx="8" />
+    </g>
+  </g>
+</svg>

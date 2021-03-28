@@ -1,19 +1,14 @@
+@import './vars';
 @import './mixin';
 @import './resets';
 @import './wrapper';
 @import './nav';
+@import './home';
 @import './projects';
 
 
 main {
   @include contain();
   padding-bottom: 5rem;
+  
 }
-
-.playground {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-items: center;
-}
-
