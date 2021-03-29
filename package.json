@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Gatsby portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jhahspu <jhahspu@gmail.com>",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
@@ -20,7 +20,6 @@
     "gatsby-source-filesystem": "^3.1.0",
     "gatsby-transformer-remark": "^3.1.0",
     "gatsby-transformer-sharp": "^3.1.0",
-    "matter-js": "^0.16.1",
     "node-sass": "^5.0.0",
     "poly-decomp": "^0.3.0",
     "prop-types": "^15.7.2",

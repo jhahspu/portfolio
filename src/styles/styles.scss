@@ -5,10 +5,11 @@
 @import './nav';
 @import './home';
 @import './projects';
+@import './about';
 
 
 main {
   @include contain();
-  padding-bottom: 5rem;
+  padding: 1rem 0 2rem;
   
 }
