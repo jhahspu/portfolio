@@ -10,9 +10,9 @@ const AboutPage = () => (
 
       <section>
         <h2>About</h2>
-        <article>
-          <p className="intro">I am genuinely interested in all there is about computers, networks, peripherals and gadgets. Other than that I live a simple life and I always treat others as I expect to be treated.</p>
-        </article>
+        
+          <p className="intro">I am genuinely interested in all there is about computers, networks, peripherals and gadgets.</p>
+        
       </section>
 
 
@@ -98,40 +98,6 @@ const AboutPage = () => (
               alt="flutter" />
           </div>
         </article>
-      </section>
-
-
-      <section>
-        <h2>Experience</h2>
-
-        <article>
-          <h3>
-            <span>Draexlmaier DRM</span>
-            <span>Senior Cost Analyst</span>
-          </h3>
-          <p>Draexlmaier is an automotive supplier and has 75,000+ employees worldwide.</p>
-          <p>The DRM location is manufacturing electrical wiring harnesses for Daimler(Mercedes Benz) and Volkswagen(Porsche).</p>
-          <p>I worked as a cost analyst for ten years in the sales department and I worked on everything, from building bill of materials based on drawings for all the products, all the way to calculating prices for the CKD products.</p>
-          <p>I also wrote a few tools in VBA and JS to reduce the workload, centralize/clean/prepare data and also tools for proofing calculations and prepare client documentations like Price Breakdowns, Detailed Overviews, etc.</p>
-          <h4>
-            <span>Sep '08 - Oct '18</span>
-            <span>Satu Mare, RO</span>
-          </h4>
-        </article>
-
-        <article>
-          <h3>
-            <span>CNDPI Romsoft</span>
-            <span>Computer technician</span>
-          </h3>
-          <p>IT Retailer with over 90 stores in 2008.</p>
-          <p>I worked as a computer technician, sales person and store manager.</p>
-          <h4>
-            <span>May '04 - Apr '08</span>
-            <span>Satu Mare, RO</span>
-          </h4>
-        </article>
-
       </section>
 
 

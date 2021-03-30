@@ -6,7 +6,7 @@
     }
 
     rect.acc {
-      fill: #6495ed;
+      fill: #8a8a8a;
     }
 
     .ph-ts rect:nth-of-type(1), .ph-is rect:nth-of-type(1) { --order: 1 }
@@ -24,7 +24,7 @@
 
     .ph-is rect {
       opacity: 0;
-      animation: dropInOut 10s ease-in-out infinite;
+      animation: dropInOut 11s ease-in-out infinite;
       animation-delay: calc(var(--order) * 200ms);
     }
 

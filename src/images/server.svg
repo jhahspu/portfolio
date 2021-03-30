@@ -32,9 +32,9 @@
     }
     
     @keyframes blink {
-      0% { fill: #6495ed; }
+      0% { fill: #8a8a8a; }
       3% { fill: #e6e7e9; }
-      7% { fill: #6495ed; }
+      7% { fill: #8a8a8a; }
       12%, 100% { fill: #e6e7e9; }
     }
   </style>

@@ -9,17 +9,21 @@
   grid-template: repeat(7, 1fr) / repeat(12, 1fr);
 
   #hero {
-    grid-column: 5/10;
-    grid-row: 2/6;
+    grid-column: 3/11;
+    grid-row: 3/5;
     display: grid;
     place-items: center;
-    padding: .5rem;
-    background: rgba(255, 255, 255, 0.72);
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.82);
     border: 4px solid rgba(255, 255, 255, 0.50);
     border-radius: 10px;
     backdrop-filter: blur(4px);
     box-shadow: 2px 3px 12px 0 rgba(0, 0, 0, 0.12);
     z-index: 4;
+
+    p {
+      font-size: 1.6rem;
+    }
 
     h1 {
       margin: 0;
@@ -31,7 +35,7 @@
     color: $neu;
     background: $acc;
     border-radius: $border-radius;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-decoration: none;
     transition: background .2s ease-in-out;
   
@@ -65,7 +69,7 @@
   @media (max-width: 678px){
     #hero {
       grid-column: 3/11;
-      grid-row: 2/6;
+      grid-row: 2/5;
     }
 
     #desktop {

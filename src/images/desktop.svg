@@ -6,7 +6,7 @@
     }
 
     rect.acc {
-      fill: #6495ed;
+      fill: #8a8a8a;
     }
 
     .desk-ts rect:nth-of-type(1), .desk-is rect:nth-of-type(1) { --order: 1 }
@@ -24,7 +24,7 @@
 
     .desk-is rect {
       opacity: 0;
-      animation: dropInOut 8s ease-in-out infinite;
+      animation: dropInOut 12s ease-in-out infinite;
       animation-delay: calc(var(--order) * 200ms);
     }
 

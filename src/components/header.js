@@ -12,7 +12,6 @@ const Header = ({ siteTitle }) => (
       <div className="links">
         <Link to="/projects" activeClassName="active">Projects</Link>
         <Link to="/about" activeClassName="active">About</Link>
-        <Link to="/resources" activeClassName="active">Resources</Link>
       </div>
     </nav>
   </header>

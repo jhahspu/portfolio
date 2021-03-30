@@ -9,14 +9,13 @@
       margin-bottom: 2rem;
     }
 
+    p.intro {
+      font-size: 1.4rem;
+    }
+
     article {
       margin-left: 1rem;
       padding: 1rem;
-      background: $neu;
-      border-radius: $border-radius;
-      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
-
-      // border: 2px dashed $acc;
 
       h3, h4 {
         display: flex;
