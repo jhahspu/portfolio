@@ -11,93 +11,114 @@ const AboutPage = () => (
       <section>
         <h2>About</h2>
         
-          <p className="intro">I am genuinely interested in all there is about computers, networks, peripherals and gadgets.</p>
+          <p className="intro">I am a self-taught full-stack developer with hands-on experience creating apps for the web, desktop, and mobile.</p>
         
       </section>
 
 
       <section>
-        <h2>Skills</h2>
+        <h2>Tech</h2>
 
         <article>
-          <h3>Frontend</h3>
+          <h3>High interest:</h3>
           <div className="ico">
+            <img
+              key="vanilla"
+              src={require(`../../images/ico/tech/vanilla.svg`).default}
+              alt="vanilla" />
+            <img
+              key="ts"
+              src={require(`../../images/ico/tech/ts.svg`).default}
+              alt="ts" />
             <img
               key="ng"
               src={require(`../../images/ico/tech/ng.svg`).default}
               alt="ng" />
             <img
-              key="gatsby"
-              src={require(`../../images/ico/tech/gatsby.svg`).default}
-              alt="gatsby" />
-            <img
-              key="vuejs"
-              src={require(`../../images/ico/tech/vuejs.svg`).default}
-              alt="vuejs" />
-            <img
-              key="js"
-              src={require(`../../images/ico/tech/js.svg`).default}
-              alt="js" />
-            <img
-              key="node"
-              src={require(`../../images/ico/tech/node.svg`).default}
-              alt="node" />
-            <img
-              key="sass"
-              src={require(`../../images/ico/tech/sass.svg`).default}
-              alt="sass" />
-          </div>
-        </article>
-
-        <article>
-          <h3>Backend</h3>
-          <div className="ico">
-            <img
-              key="php"
-              src={require(`../../images/ico/tech/php.svg`).default}
-              alt="php" />
-            <img
-              key="python"
-              src={require(`../../images/ico/tech/python.svg`).default}
-              alt="python" />
+              key="svelte"
+              src={require(`../../images/ico/tech/svelte.svg`).default}
+              alt="svelte" />
             <img
               key="go"
               src={require(`../../images/ico/tech/go.svg`).default}
               alt="go" />
             <img
-              key="fire"
-              src={require(`../../images/ico/tech/fire.svg`).default}
-              alt="fire" />
-          </div>
-        </article>
-
-        <article>
-          <h3>DB</h3>
-          <div className="ico">
+              key="python"
+              src={require(`../../images/ico/tech/python.svg`).default}
+              alt="python" />
             <img
-              key="no-sql"
-              src={require(`../../images/ico/tech/no-sql.svg`).default}
-              alt="no-sql" />
-            <img
-              key="mysql"
-              src={require(`../../images/ico/tech/mysql.svg`).default}
-              alt="mysql" />
-            <img
-              key="graphql"
-              src={require(`../../images/ico/tech/graphql.svg`).default}
-              alt="graphql" />
-          </div>
-        </article>
-
-        <article>
-          <h3>Mobile</h3>
-          <div className="ico">
+              key="sass"
+              src={require(`../../images/ico/tech/sass.svg`).default}
+              alt="sass" />
             <img
               key="flutter"
               src={require(`../../images/ico/tech/flutter.svg`).default}
               alt="flutter" />
           </div>
         </article>
+
+        <article>
+          <h3>Familiar with:</h3>
+          <div className="ico">
+            <img
+              key="docker"
+              src={require(`../../images/ico/tech/docker.svg`).default}
+              alt="docker" />
+            <img
+              key="git"
+              src={require(`../../images/ico/tech/git.svg`).default}
+              alt="git" />
+            <img
+              key="php"
+              src={require(`../../images/ico/tech/php.svg`).default}
+              alt="php" />
+            <img
+              key="flask"
+              src={require(`../../images/ico/tech/flask.svg`).default}
+              alt="flask" />
+            <img
+              key="django"
+              src={require(`../../images/ico/tech/django.svg`).default}
+              alt="django" />
+            <img
+              key="node"
+              src={require(`../../images/ico/tech/node.svg`).default}
+              alt="node" />
+            <img
+              key="vue"
+              src={require(`../../images/ico/tech/vue.svg`).default}
+              alt="vue" />
+            <img
+              key="rxjs"
+              src={require(`../../images/ico/tech/rxjs.svg`).default}
+              alt="rxjs" />
+            <img
+              key="react"
+              src={require(`../../images/ico/tech/react.svg`).default}
+              alt="react" />
+            <img
+              key="gatsby"
+              src={require(`../../images/ico/tech/gatsby.svg`).default}
+              alt="gatsby" />
+            <img
+              key="sql"
+              src={require(`../../images/ico/tech/sql.svg`).default}
+              alt="sql" />
+            <img
+              key="graphql"
+              src={require(`../../images/ico/tech/graphql.svg`).default}
+              alt="graphql" />
+            <img
+              key="materialize"
+              src={require(`../../images/ico/tech/materialize.svg`).default}
+              alt="materialize" />
+            <img
+              key="bs"
+              src={require(`../../images/ico/tech/bs.svg`).default}
+              alt="bs" />
+          </div>
+        </article>
+
       </section>
 
 
@@ -122,10 +143,10 @@ const AboutPage = () => (
                 src={require(`../../images/ico/linkedin.svg`).default}
                 alt="linkedin" />
               <a
-                href="https://linkedin.com/in/catalinim"
+                href="https://linkedin.com/in/jhahspu"
                 target="_blank"
                 rel="noopener noreferrer" >
-                  linkedin.com/in/catalinim
+                  linkedin.com/in/jhashpu
               </a>
             </li>
           </ul>
