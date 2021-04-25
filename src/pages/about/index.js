@@ -123,7 +123,7 @@ const AboutPage = () => (
 
 
       <section>
-        <h2>Contact</h2>
+        <h2>Contact:</h2>
 
         <article>
           <ul>
