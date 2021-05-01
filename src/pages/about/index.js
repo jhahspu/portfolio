@@ -15,35 +15,19 @@ const AboutPage = () => (
           <ul>
           
             <li>
-            Haven't yet figured out what I want to do for the rest of my life and I don't concern myself with that.
+            Haven't yet figured out what I want to do for the rest of my life and that leaves the door open to many possibilities.
             </li>
           
             <li>
-            I have many interests: computers, gadgets, DIY projects, cooking, etc.
+            I'll get my hands dirty with almost any DIY project.
             </li>
           
             <li>
-            Any job that I worked on is somehow connected to someone that I know - real life role models.
+            I'd rather cooperate than compete, that way everyone comes out as a winner.
             </li>
           
             <li>
-            Learned that if I give the job 100% it has long term benefits for my health.
-            </li>
-          
-            <li>
-            I'd rather cooperate than compete - if it's a competition, then game on!
-            </li>
-          
-            <li>
-            I play chess regularly, but NOT because of Queen's Gambit - decent series though.
-            </li>
-          
-            <li>
-            I'm not active on social media because I don't have anything meaningful to share and my personal life is... personal.
-            </li>
-          
-            <li>
-            Jhahspu looks gibberish because it's a cipher.
+            Never understood why people feel the need to share their personal life on social media.
             </li>
 
           </ul>
