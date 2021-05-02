@@ -10,9 +10,17 @@ const AboutPage = () => (
 
       <section>
         <h2>About</h2>
+
+        <p className="intro">
+          Found a funny tweet the other day, that summarizes the way I worked in the past 20 years: <q>Always work on two projects at once. That way you can procrastinate on project A by messing around on project B, and when you get tired of project B you can waste time by working on project A. You will be twice as productive while doing nothing but procrastinate.</q> 
+        </p>
         
-        <h4>What is there to tell about me?</h4>
+        <h4>A few facts about me (conversation staters):</h4>
           <ul>
+
+            <li>
+              Why so few projects on here? This website is new and I decided to update it with new stuff only.. there are 10000+ lines in my gists for the curious, and that since Feb'21 when I finally discovered <a href="https://gist.github.com/jhahspu" target="_blank" rel="noopener noreferrer">gist.github</a>
+            </li>
           
             <li>
             Haven't yet figured out what I want to do for the rest of my life and that leaves the door open to many possibilities.
@@ -23,17 +31,14 @@ const AboutPage = () => (
             </li>
           
             <li>
-            I'd rather cooperate than compete, that way everyone comes out as a winner.
+            I'd rather cooperate than compete, that way no one is left behind to bitch about it.
             </li>
           
             <li>
-            Never understood why people feel the need to share their personal life on social media.
+            Never understood why people feel the need to share their personal life on social media, but whatever.
             </li>
 
           </ul>
-
-          
-        
       </section>
 
 
@@ -41,7 +46,7 @@ const AboutPage = () => (
         <h2>Tech</h2>
 
         <article>
-          <h3>High interest:</h3>
+          <h3>High interest (which means that I can recall ≈70% of it):</h3>
           <div className="ico">
             <img
               key="vanilla"
@@ -75,12 +80,6 @@ const AboutPage = () => (
               key="flutter"
               src={require(`../../images/ico/tech/flutter.svg`).default}
               alt="flutter" />
-          </div>
-        </article>
-
-        <article>
-          <h3>Familiar with:</h3>
-          <div className="ico">
             <img
               key="docker"
               src={require(`../../images/ico/tech/docker.svg`).default}
@@ -89,6 +88,12 @@ const AboutPage = () => (
               key="git"
               src={require(`../../images/ico/tech/git.svg`).default}
               alt="git" />
+          </div>
+        </article>
+
+        <article>
+          <h3>Familiar with (which means that I can recall ≈40% of it):</h3>
+          <div className="ico">
             <img
               key="php"
               src={require(`../../images/ico/tech/php.svg`).default}
@@ -160,6 +165,19 @@ const AboutPage = () => (
 
             <li>
               <img
+                key="github"
+                src={require(`../../images/ico/github.svg`).default}
+                alt="github" />
+              <a
+                href="https://github.com/jhahspu"
+                target="_blank"
+                rel="noopener noreferrer" >
+                  github.com/jhashpu
+              </a>
+            </li>
+
+            <li>
+              <img
                 key="linkedin"
                 src={require(`../../images/ico/linkedin.svg`).default}
                 alt="linkedin" />
@@ -180,38 +198,3 @@ const AboutPage = () => (
 )
 
 export default AboutPage
-
-
-// ABOUT
-
-// Highly motivated, full stack software developer with a passion for delivering high quality, requirements-driven software.
-
-// I have over 7 years of experience as a full stack software engineer and have worked at both small startups and large organizations. As a software developer, I enjoy putting my obsessive attention to detail to use building out user friendly frontend components and scalable backend services.
-
-// I have an insatiable interest in learning new technologies as well as a strong desire to build modular, maintainable, and well-tested applications. I am constantly sharpening my skills and keeping up with the latest trends in web development and cloud computing.
-
-
-
-// EXPERIENCE
-
-// COMPANY NAME | POSITION
-
-// Innovative, software consulting firm implementing cutting-edge solutions combining technology, strategy, and change management to meet and exceed client needs
-
-// CLIENT PRODUCT DEVELOPMENT
-// Contribute core features to a client requested video streaming progressive web application (PWA)
-// Collaborated with agile team to build front-end of PWA using React
-// Researched and determined best third party video streaming software to fit client needs
-// Lead developer on building out AWS lambda functions to handle streaming using AWS SDK
-// Tools: React, Typescript, SASS // Node.js, Typescript, Go, MySQL // AWS
-// May 2019 - Present | Chicago, IL
-
-
-// SKILLS
-
-// FRONT END
-
-// BACKEND
-
-
-// CONTACT
