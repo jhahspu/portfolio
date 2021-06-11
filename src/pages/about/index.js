@@ -146,7 +146,7 @@ const AboutPage = () => (
                 href="https://github.com/jhahspu"
                 target="_blank"
                 rel="noopener noreferrer" >
-                  github.com/jhashpu
+                  github.com/jhahspu
               </a>
             </li>
 
@@ -159,7 +159,7 @@ const AboutPage = () => (
                 href="https://linkedin.com/in/jhahspu"
                 target="_blank"
                 rel="noopener noreferrer" >
-                  linkedin.com/in/jhashpu
+                  linkedin.com/in/jhahspu
               </a>
             </li>
           </ul>

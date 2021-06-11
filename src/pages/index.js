@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div className="home">
 
       <div id="hero">
-        <p>Hi there, I'm Jhahspu. I develop apps for the web, desktop and mobile.</p>
+        <p>Hi there, and welcome to my portfolio website. I'm Jhahspu and writing apps for the web, desktop, or mobile has been my hobby since '97.</p>
         <Link to="/projects" id="btn-action">My Projects</Link>
       </div>
       
