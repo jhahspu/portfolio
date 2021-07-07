@@ -1,38 +1,49 @@
 import React from "react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import Icons from "./icons"
 
 function Project({ project, index }) {
-  const { title, image, description, tech, live, code, time } = project
+  const { title, image, description, tech, live, code } = project
+  let te = tech.split(",")
 
   return (
-    <div className="prj">
+    <article className={`project ${index % 2 !== 0 ? 'right': 'left'}`}>
 
-      <div className="prj-descr">
-        <h2>{title}</h2>
-        <h3>{time}</h3>
-        <p>{description}</p>
-        <div className="links">
-          {live !== null ? (
-            <a href={live} target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-          ) : (  "" )}
-          {code !== null ? (
-            <a href={code} target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
-          ) : ( "" )}
+        <div className="image" >
+          <GatsbyImage image={getImage(image)} alt={title} />
         </div>
-        <div className="prj-tech">
-          {tech !== null ? <Icons tech={tech} /> : ""}
-        </div>
-      </div>
 
-      <div className="prj-img" >
-        <GatsbyImage image={getImage(image)} alt={title} />
-      </div>
-    </div>
+        <div className="description">
+          
+          <p className="highlight">Featured Project</p>
+          
+          <h3>{title}</h3>
+          
+          <p className="prj-desc">
+            {description}
+          </p>
+          
+          <ul>
+            {te.map((value, index) => {
+              return <li key={index}>{value}</li>
+            })}
+          </ul>
+
+          <div className="links">
+            {live !== null ? (
+              <a href={live} target="_blank" rel="noopener noreferrer">
+                Live
+              </a>
+            ) : (  "" )}
+            {code !== null ? (
+              <a href={code} target="_blank" rel="noopener noreferrer">
+                Code
+              </a>
+            ) : ( "" )}
+          </div>
+
+        </div>
+
+    </article>
   )
 }
 

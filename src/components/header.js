@@ -1,18 +1,30 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
+
     <nav>
-      <div className="logo">
-        <Link to="/">{siteTitle}.dev</Link>
-      </div>
-      
-      <div className="links">
-        <Link to="/projects" activeClassName="active">Projects</Link>
-        <Link to="/about" activeClassName="active">About</Link>
-      </div>
+
+      <a href="#intro" className="logo">JT</a>
+
+      <ol className="nav">
+        <li className="nav-item">
+          <a href="#projects" className="nav-link">
+            Projects
+          </a>
+        </li>
+        <li className="nav-item">
+          <a href="#contact" className="nav-link">
+            Contact
+          </a>
+        </li>
+      </ol>
+
+      <a href="/ResumeCatalinIMolnar.pdf" className="btn btn-sm" rel="noopener noreferrer">
+        Resume
+      </a>
+  
     </nav>
   </header>
 )
